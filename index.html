@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Multi-Choice Calculator</title>
+  
+  <!-- ✅ Link to external CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+  
+</head>
+<body>
+  <div class="container">
+    <h1>Questionario de Corrente Filosófica</h1>
+    <h4>Marque a opção que mais condiz com sua opinião sobre a Frase no Topo de cada Bloco</h4>
+    <h4>O questionario possui 40 perguntas</h4>
+    <form id="quizForm">
+    <div class="questao">
+      <label for="q1">O aprendizado é um processo de interação com as pessoas e coisas ao nosso redor.</label>
+      <input type="radio" name="q1" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q1" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q1" value="3"> Neutro <br>
+      <input type="radio" name="q1" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q1" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q2">A pessoa humana é principalmente um sistema nervoso influenciado pela interação com o ambiente físico de acordo com princípios científicos.</label>
+      <input type="radio" name="q2" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q2" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q2" value="3"> Neutro <br>
+      <input type="radio" name="q2" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q2" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q3">A educação deveria levar ao indivíduo à compreensão espiritual.</label>
+      <input type="radio" name="q3" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q3" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q3" value="3"> Neutro <br>
+      <input type="radio" name="q3" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q3" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q4">Conhecimento significa adaptação bem sucedida ao entorno.</label>
+      <input type="radio" name="q4" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q4" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q4" value="3"> Neutro <br>
+      <input type="radio" name="q4" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q4" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q5">O conhecimento é exato se reflete a realidade física e material.</label>
+      <input type="radio" name="q5" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q5" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q5" value="3"> Neutro <br>
+      <input type="radio" name="q5" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q5" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q6">O ser humano é basicamente um ser espiritual.</label>
+      <input type="radio" name="q6" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q6" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q6" value="3"> Neutro <br>
+      <input type="radio" name="q6" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q6" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q7">O ser humano descobre o conhecimento a partir do mundo físico e material.</label>
+      <input type="radio" name="q7" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q7" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q7" value="3"> Neutro <br>
+      <input type="radio" name="q7" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q7" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q8">O conhecimento é para ser usado. É, no fim das contas, um meio de sobrevivência.</label>
+      <input type="radio" name="q8" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q8" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q8" value="3"> Neutro <br>
+      <input type="radio" name="q8" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q8" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q9">A educação é basicamente um processo de crescimento espiritual.</label>
+      <input type="radio" name="q9" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q9" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q9" value="3"> Neutro <br>
+      <input type="radio" name="q9" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q9" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q10">Bom é aquilo que permite alcançar um objetivo decidido por consenso social.</label>
+      <input type="radio" name="q10" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q10" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q10" value="3"> Neutro <br>
+      <input type="radio" name="q10" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q10" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q11">O conhecimento se alcança ao considerar as implicações práticas das ideias.</label>
+      <input type="radio" name="q11" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q11" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q11" value="3"> Neutro <br>
+      <input type="radio" name="q11" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q11" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q12">A mente humana é simplesmente o cérebro em funcionamento.</label>
+      <input type="radio" name="q12" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q12" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q12" value="3"> Neutro <br>
+      <input type="radio" name="q12" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q12" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q13">O aprendizado é o processo de eleição da nossa própria identidade.</label>
+      <input type="radio" name="q13" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q13" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q13" value="3"> Neutro <br>
+      <input type="radio" name="q13" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q13" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q14">A mente é uma realidade espiritual que determina a natureza da realidade (ao invés da realidade determinar o que é a mente)</label>       
+      <input type="radio" name="q14" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q14" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q14" value="3"> Neutro <br>
+      <input type="radio" name="q14" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q14" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q15">Todo conhecimento autêntico reflete os sentimentos do conhecedor.</label>
+      <input type="radio" name="q15" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q15" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q15" value="3"> Neutro <br>
+      <input type="radio" name="q15" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q15" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q16">A coisa mais importante da realidade é a capacidade de eleger ou decidir.</label>
+      <input type="radio" name="q16" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q16" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q16" value="3"> Neutro <br>
+      <input type="radio" name="q16" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q16" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q17">A inteligência é a habilidade de conhecer os fatos físicos e materiais.</label>
+      <input type="radio" name="q17" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q17" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q17" value="3"> Neutro <br>
+      <input type="radio" name="q17" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q17" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q18">Uma pessoa não é ninguém se não faz nada. A ação é o que determina o que a pessoa é.</label>
+      <input type="radio" name="q18" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q18" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q18" value="3"> Neutro <br>
+      <input type="radio" name="q18" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q18" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q19">A inteligência consiste na habilidade de formular e testar soluções novas aos problemas.</label>
+      <input type="radio" name="q19" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q19" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q19" value="3"> Neutro <br>
+      <input type="radio" name="q19" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q19" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q20">A realidade é o resultado de Deus que mantém o universo existindo pelo poder do seu pensamento divino.</label>
+      <input type="radio" name="q20" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q20" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q20" value="3"> Neutro <br>
+      <input type="radio" name="q20" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q20" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q21">Toda teoria ou crença deve ser testada pelo seu efeito em nós, ou seja, pelas suas consequências práticas.</label>
+      <input type="radio" name="q21" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q21" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q21" value="3"> Neutro <br>
+      <input type="radio" name="q21" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q21" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q22">O conhecimento é objetivo (ao invés de subjetivo), ou seja, deve concordar com as ciências físicas que tratam da natureza ou da realidade 
+    material.</label>
+      <input type="radio" name="q22" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q22" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q22" value="3"> Neutro <br>
+      <input type="radio" name="q22" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q22" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q23">A pessoa é, na realidade, a soma das suas próprias eleições.</label>
+      <input type="radio" name="q23" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q23" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q23" value="3"> Neutro <br>
+      <input type="radio" name="q23" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q23" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q24">Deus é o ápice espiritual da realidade.</label>
+      <input type="radio" name="q24" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q24" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q24" value="3"> Neutro <br>
+      <input type="radio" name="q24" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q24" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q25">A realidade basicamente tem a ver com temas como liberdade, eleição, amor, relações pessoais e morte.</label>
+      <input type="radio" name="q25" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q25" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q25" value="3"> Neutro <br>
+      <input type="radio" name="q25" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q25" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q26">A educação consiste, basicamente, em estimular aos estudantes a procurarem a sua própria identidade.</label>
+      <input type="radio" name="q26" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q26" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q26" value="3"> Neutro <br>
+      <input type="radio" name="q26" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q26" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q27">As verdadeiras ideias são aquelas que podem ser assimiladas, corroboradas e verificadas experimentalmente.</label>
+      <input type="radio" name="q27" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q27" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q27" value="3"> Neutro <br>
+      <input type="radio" name="q27" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q27" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q28">O conhecimento vem do sobrenatural (ou seja de uma força divina)</label>
+      <input type="radio" name="q28" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q28" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q28" value="3"> Neutro <br>
+      <input type="radio" name="q28" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q28" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q29">A pessoa age livremente, e, portanto, ela é responsável pelas suas próprias ações.</label>
+      <input type="radio" name="q29" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q29" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q29" value="3"> Neutro <br>
+      <input type="radio" name="q29" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q29" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q30">O ser humano deve ir além do mundo material para atingir seu destino espiritual.</label>
+      <input type="radio" name="q30" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q30" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q30" value="3"> Neutro <br>
+      <input type="radio" name="q30" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q30" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q31">O mundo físico experimentado pelos sentidos é basicamente factual, realidade objetiva.</label>
+      <input type="radio" name="q31" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q31" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q31" value="3"> Neutro <br>
+      <input type="radio" name="q31" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q31" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q32">O conhecimento é aquilo que é útil para conseguir a solução a algum problema.</label>
+      <input type="radio" name="q32" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q32" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q32" value="3"> Neutro <br>
+      <input type="radio" name="q32" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q32" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q33">A realidade têm sua base e origem no mundo material e físico.</label>
+      <input type="radio" name="q33" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q33" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q33" value="3"> Neutro <br>
+      <input type="radio" name="q33" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q33" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q34">A obtenção do conhecimento é basicamente um processo de procura de fatos objetivos no universo físico.</label>
+      <input type="radio" name="q34" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q34" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q34" value="3"> Neutro <br>
+      <input type="radio" name="q34" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q34" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q35">A pessoa recebe o conhecimento por revelação de Deus.</label>
+      <input type="radio" name="q35" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q35" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q35" value="3"> Neutro <br>
+      <input type="radio" name="q35" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q35" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q36">A pessoa pode resolver os problemas com soluções inéditas, gerando novo conhecimento.</label>
+      <input type="radio" name="q36" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q36" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q36" value="3"> Neutro <br>
+      <input type="radio" name="q36" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q36" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q37">A realidade acontece quando a pessoa se compromete decididamente a encarar uma determinada situação.</label>
+      <input type="radio" name="q37" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q37" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q37" value="3"> Neutro <br>
+      <input type="radio" name="q37" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q37" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q38">A mente é biológica no seu origem, e pode ser explicada em termos físicos e materiais.</label>
+      <input type="radio" name="q38" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q38" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q38" value="3"> Neutro <br>
+      <input type="radio" name="q38" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q38" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q39">As leis que permitem julgar as pessoas são determinadas por Deus.</label>
+      <input type="radio" name="q39" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q39" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q39" value="3"> Neutro <br>
+      <input type="radio" name="q39" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q39" value="5"> Concordo totalmente <br>
+    </div>
+    <div class="questao">
+      <label for="q40">A realidade última existe em cada pessoa individual.</label>
+      <input type="radio" name="q40" value="1"> Discordo totalmente <br>
+      <input type="radio" name="q40" value="2"> Discordo parcialmente <br>
+      <input type="radio" name="q40" value="3"> Neutro <br>
+      <input type="radio" name="q40" value="4"> Concordo parcialmente <br>
+      <input type="radio" name="q40" value="5"> Concordo totalmente <br>
+    </div>
+    
+      <button type="button" onclick="calculateScore()">Submit</button>
+    </form>
+    <div id="result" class="result"></div>
+  </div>
+
+  <script>
+    function calculateScore() {
+      const form = document.getElementById('quizForm');
+      let score = 0;
+      
+      const idealismo = [3, 6, 9,14, 20, 24, 28, 30, 35, 39];
+      const realismo = [2, 5, 7, 12, 17, 22, 31, 33, 34, 38];
+      const pragmatismo = [1, 4, 8, 10, 11, 19, 21, 27, 32, 36];
+      const existencialismo = [13, 15, 16, 18, 23, 25, 26, 29, 37, 40];
+      
+      let idealismo_soma = 0
+      let realismo_soma = 0
+      let pragmatismo_soma = 0
+      let existencialismo_soma = 0
+      
+      const somas = [idealismo_soma, realismo_soma, pragmatismo_soma, existencialismo_soma];
+      const somas_nome = ["Idealismo", "Realismo","Pragmatismo", "Existencialismo"];
+      
+      // Get selected answers
+      const q1 = form.elements['q1'].value;
+      const q2 = form.elements['q2'].value;
+      const q3 = form.elements['q3'].value;
+      const q4 = form.elements['q4'].value;
+      const q5 = form.elements['q5'].value;  
+      const q6 = form.elements['q6'].value;  
+      const q7 = form.elements['q7'].value;  
+      const q8 = form.elements['q8'].value;  
+      const q9 = form.elements['q9'].value;  
+      const q10 = form.elements['q10'].value;
+      const q11 = form.elements['q11'].value;
+      const q12 = form.elements['q12'].value;
+      const q13 = form.elements['q13'].value;
+      const q14 = form.elements['q14'].value;
+      const q15 = form.elements['q15'].value;
+      const q16 = form.elements['q16'].value;
+      const q17 = form.elements['q17'].value;
+      const q18 = form.elements['q18'].value;
+      const q19 = form.elements['q19'].value;
+      const q20 = form.elements['q20'].value;
+      const q21 = form.elements['q21'].value;
+      const q22 = form.elements['q22'].value;
+      const q23 = form.elements['q23'].value;
+      const q24 = form.elements['q24'].value;
+      const q25 = form.elements['q25'].value;
+      const q26 = form.elements['q26'].value;
+      const q27 = form.elements['q27'].value;
+      const q28 = form.elements['q28'].value;
+      const q29 = form.elements['q29'].value;
+      const q30 = form.elements['q30'].value;
+      const q31 = form.elements['q31'].value;
+      const q32 = form.elements['q32'].value;
+      const q33 = form.elements['q33'].value;
+      const q34 = form.elements['q34'].value;
+      const q35 = form.elements['q35'].value;
+      const q36 = form.elements['q36'].value;
+      const q37 = form.elements['q37'].value;
+      const q38 = form.elements['q38'].value;
+      const q39 = form.elements['q39'].value;
+      const q40 = form.elements['q40'].value;
+          
+      const scores = [q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,q13,q14,q15,q16,q17,q18,q19,q20,q21,q22,q23,q24,q25,q26,q27,q28,q29,q30,q31,q32,q33,q34,q35,q36,q37,q38,q39,q40]
+      
+      for (let i = 1; i <= 40; i++) {
+        const key = `q${i}`; // Dynamically create "q1", "q2", etc.
+        const value = parseInt(scores[i-1] || 0); // Get the score or default to 0
+        
+        
+        if (idealismo.includes(i)){
+          idealismo_soma += value;
+          somas[0] = idealismo_soma
+        }
+        else if (realismo.includes(i)){
+            realismo_soma += value;
+            somas[1] = realismo_soma
+        }
+        else if (pragmatismo.includes(i)){
+            pragmatismo_soma += value;
+            somas[2] = pragmatismo_soma
+        }
+        else {
+          existencialismo_soma += value;
+          somas[3] = existencialismo_soma
+        }
+        
+        
+    }
+    
+    console.log(`Idealismo : ${somas[0]}, Realismo : ${somas[1]}, Pragmatismo : ${somas[2]}, Existencialismo : ${somas[3]}`)
+    const maxValue = Math.max(...somas)
+    
+    // Find the index of the maximum value
+    const maxIndex = somas.indexOf(maxValue);
+    
+    
+      // Display the result
+      const resultDiv = document.getElementById('result');
+      resultDiv.textContent = `Sua Corrente Filosofica é o ${somas_nome[maxIndex]}`;
+    }
+  </script>
+</body>
+</html>
