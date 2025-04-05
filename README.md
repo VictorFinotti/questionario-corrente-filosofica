@@ -32,7 +32,8 @@ As perguntas presentes neste questionário foram inspiradas no modelo proposto p
 1. Acesse o repositório no GitHub e clique em **Code > Download ZIP** ou clone com:
 
    ```bash
-   git clone https://github.com/seu-usuario/questionario_corrente_filosofica.git
+   git clone https://github.com/VictorFinotti/questionario-corrente-filosofica.git
+   
    ```
 
 2. Extraia os arquivos (caso tenha feito download em ZIP)  
